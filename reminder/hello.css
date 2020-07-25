@@ -1,0 +1,65 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+.contents_box {
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.top-bar > h1 > a{
+    color: darkgray;
+    text-decoration : none;
+}
+.top-bar > h1:hover span{
+    color : blue;
+    transition: 0.5s;
+}
+.top-bar {
+    display: flex;
+    border-bottom: 6px solid gray;
+}
+
+.top-bar > div {
+    width: 200px;
+}
+
+.top-bar > nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.top-bar > nav > ul > li {
+    display: block;
+    padding: 5px 50px 50px 5px;
+}
+.add_member > section{
+    text-align: right;
+}
+/*중단 레이아웃 */
+.flex-article {
+    display: flex;
+}
+
+
+.main {
+    flex-basis: 70%;
+}
+
+.wrapper{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+/* 멤버 소개 */
+.main>ol>li{
+    padding: 10px 0 100px 0;
+    border-bottom: 1px solid gray
+}
+/*푸터*/
+footer{
+    border: 1px solid gray;
+}
