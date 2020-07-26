@@ -48,26 +48,6 @@ body {
     text-align: right;
 }
 
-/*중단 레이아웃 */
-.flex-article {
-    display: flex;
-}
-
-
-.main {
-    flex-basis: 70%;
-}
-
-.wrapper {
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-}
-
-/* 멤버 소개 */
-.main > ol > li {
-    padding: 10px 0 100px 0;
-    border-bottom: 1px solid gray
-}
 
 /*푸터*/
 footer {
